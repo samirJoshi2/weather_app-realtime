@@ -1,0 +1,26 @@
+name: weather
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.6
+  cupertino_icons: ^1.0.8
+  intl: ^0.17.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1  # You had ^5.0.0, but it doesn’t exist (as of now)
+
+flutter:
+  uses-material-design: true
+
